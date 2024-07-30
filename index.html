@@ -9,9 +9,9 @@
     <!-- tailwind cdn  -->
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
+  <body class="bg-[#12141D]">
     <!-- start navbar  -->
-    <nav class="bg-[#12141D] text-white sticky top-0 z-50">
+    <nav class="text-white sticky top-0 z-50">
       <div class="relative container mx-auto">
         <!-- navbar for large device  -->
         <div class="px-4 flex items-center justify-between py-4">
@@ -97,7 +97,7 @@
     <!-- end navbar  -->
 
     <!-- header section  -->
-    <header class="bg-[#12141D]">
+    <header>
       <div class="container mx-auto text-center py-20 px-4 md:px-0">
         <!-- start hero area  -->
         <div class="space-y-5 md:max-w-[600px] mx-auto">
@@ -115,7 +115,7 @@
               Explore Platform
             </button>
             <button
-              class="bg-[#22222A] hover:bg-[#4F5054] transition-all duration-300 text-white px-5  md:px-8 py-3 md:py-4 md:text-lg rounded-lg"
+              class="bg-[#22222A] hover:bg-[#4F5054] transition-all duration-300 text-white px-5 md:px-8 py-3 md:py-4 md:text-lg rounded-lg"
             >
               Learn More
             </button>
@@ -124,8 +124,10 @@
         <!-- end hero area  -->
 
         <!-- start key features area  -->
-        <div class="space-y-5 mt-28">
-          <h2 class="text-3xl md:text-[42px] font-semibold text-white">Key features</h2>
+        <div class="space-y-5 mt-28 md:max-w-[600px] mx-auto">
+          <h2 class="text-3xl md:text-[42px] font-semibold text-white">
+            Key features
+          </h2>
           <p class="text-[18px] text-gray-500">
             NetTracking™ has quickly become the go-to content marketing solution
             for over 600 clients around the world
@@ -134,6 +136,109 @@
         <!-- start key features area  -->
       </div>
     </header>
+
+    <!-- keyfeatures  -->
+    <div>
+      <div class="container mx-auto bg-[#1E2029] p-8 md:p-24 rounded-lg">
+        <div
+          class="grid grid-cols-2 lg:grid-cols-3  gap-10 md:gap-16 lg:gap-24"
+        >
+          <!-- keyfeature one  -->
+          <div>
+            <div
+              class="bg-[#0F161B] w-14 h-14 rounded-full flex justify-center items-center mb-4"
+            >
+              <img src="./asset/key_features/book.png" alt="" />
+            </div>
+            <h3 class="text-white text-[16px] md:text-xl mb-2">
+              Real-Time Email Alerts
+            </h3>
+            <p class="text-[#696B76] text-[12px] md:text-[16px]">
+              NetTracking" is a very powerful Web 2.0 site search engine allows
+              you to find email allerts
+            </p>
+          </div>
+
+          <!-- keyfeature two  -->
+          <div>
+            <div
+              class="bg-[#0F161B] w-14 h-14 rounded-full flex justify-center items-center mb-4"
+            >
+              <img src="./asset/key_features/monitor.png" alt="" />
+            </div>
+            <h3 class="text-white text-[16px] md:text-xl mb-2">
+              Monitor Inbound Traffic
+            </h3>
+            <p class="text-[#696B76] text-[12px] md:text-[16px]">
+              The biggest challenge for marketers is being heard inbound
+              traffice in market.
+            </p>
+          </div>
+
+          <!-- keyfeature three  -->
+          <div>
+            <div
+              class="bg-[#0F161B] w-14 h-14 rounded-full flex justify-center items-center mb-4"
+            >
+              <img src="./asset/key_features/chart1.png" alt="" />
+            </div>
+            <h3 class="text-white text-[16px] md:text-xl mb-2">
+              Track Multiple Sites
+            </h3>
+            <p class="text-[#696B76] text-[12px] md:text-[16px]">
+              Nettracking gives you an innovative web-based tool that manages
+              multiple sites
+            </p>
+          </div>
+
+          <!-- keyfeature four  -->
+          <div>
+            <div
+              class="bg-[#0F161B] w-14 h-14 rounded-full flex justify-center items-center mb-4"
+            >
+              <img src="./asset/key_features/chart2.png" alt="" />
+            </div>
+            <h3 class="text-white text-[16px] md:text-xl mb-2">
+              Aggregate Statistics
+            </h3>
+            <p class="text-[#696B76] text-[12px] md:text-[16px]">
+              Filters and reports on your website's search engine ranking
+              results.
+            </p>
+          </div>
+
+          <!-- keyfeature five  -->
+          <div>
+            <div
+              class="bg-[#0F161B] w-14 h-14 rounded-full flex justify-center items-center mb-4"
+            >
+              <img src="./asset/key_features/square.png" alt="" />
+            </div>
+            <h3 class="text-white text-[16px] md:text-xl mb-2">Edit Exclude</h3>
+            <p class="text-[#696B76] text-[12px] md:text-[16px]">
+              In short, nettracking gives you the information that allows you to
+              changes in your website's ranking
+            </p>
+          </div>
+
+          <!-- keyfeature six  -->
+          <div>
+            <div
+              class="bg-[#0F161B] w-14 h-14 rounded-full flex justify-center items-center mb-4"
+            >
+              <img src="./asset/key_features/book.png" alt="" />
+            </div>
+            <h3 class="text-white text-[16px] md:text-xl mb-2">
+              Easy To Implement
+            </h3>
+            <p class="text-[#696B76] text-[12px] md:text-[16px]">
+              Accurately track organic (or natural) search engine movement over
+              time.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script type="text/javascript" src="./script/global.js" />
   </body>
