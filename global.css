@@ -7,3 +7,12 @@
 .menu-hidden {
   display: none;
 }
+
+
+.nav-link {
+  color: #7D7E83;
+}
+
+.nav-link.active {
+  color: white;
+}

@@ -11,7 +11,7 @@
   </head>
   <body class="bg-[#12141D]">
     <!-- start navbar  -->
-    <nav class="text-white sticky top-0 z-50">
+    <nav class="text-white bg-[#12141D] sticky top-0 z-50">
       <div class="relative container mx-auto">
         <!-- navbar for large device  -->
         <div class="px-4 flex items-center justify-between py-4">
@@ -31,11 +31,11 @@
             </div>
           </div>
           <div class="hidden lg:flex space-x-8">
-            <a href="#" class="hover:text-gray-400">Features</a>
-            <a href="#" class="hover:text-gray-400">Pricing</a>
-            <a href="#" class="hover:text-gray-400">How it Works</a>
-            <a href="#" class="hover:text-gray-400">Knowledge Base</a>
-            <a href="#" class="hover:text-gray-400">FAQ</a>
+            <a href="index.html" class="nav-link active">Features</a>
+            <a href="pricing.html" class="nav-link">Pricing</a>
+            <a href="how_it_work.html" class="nav-link">How it Works</a>
+            <a href="knowledge.html" class="nav-link">Knowledge Base</a>
+            <a href="faq.html" class="nav-link">FAQ</a>
           </div>
           <div class="hidden lg:flex space-x-5">
             <button
@@ -71,25 +71,42 @@
           id="mobile-menu"
           class="lg:hidden menu-hidden absolute w-full bg-[#12141D] shadow-md shadow-gray-800 p-3 md:p-5"
         >
-          <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-700"
+          <a
+            href="index.html"
+            class="nav-link block py-2 px-4 text-sm hover:bg-gray-700 hover:text-gray-300 rounded-md transition-all duration-300"
             >Features</a
           >
-          <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-700"
+          <a
+            href="pricing.html"
+            class="nav-link block py-2 px-4 text-sm hover:bg-gray-700 hover:text-gray-300 rounded-md transition-all duration-300"
             >Pricing</a
           >
-          <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-700"
+          <a
+            href="how_it_work.html"
+            class="nav-link block py-2 px-4 text-sm hover:bg-gray-700 hover:text-gray-300 rounded-md transition-all duration-300"
             >How it Works</a
           >
-          <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-700"
+          <a
+            href="knowledge.html"
+            class="nav-link block py-2 px-4 text-sm hover:bg-gray-700 hover:text-gray-300 rounded-md transition-all duration-300"
             >Knowledge Base</a
           >
-          <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-700">FAQ</a>
-          <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-700"
-            >Sign In</a
+          <a
+            href="faq.html"
+            class="nav-link block py-2 px-4 text-sm hover:bg-gray-700 hover:text-gray-300 rounded-md transition-all duration-300"
+            >FAQ</a
           >
-          <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-700"
-            >Sign Up</a
-          >
+          <div class="space-x-5 mt-3">
+            <button
+              class="font-semibold px-5 py-3 rounded-lg text-white bg-[#1D1F29]"
+            >
+              Sign in
+            </button>
+            <button
+              class="font-semibold px-5 py-3 rounded-lg text-black bg-white"
+            >
+              Sign in
+            </button>
         </div>
       </div>
     </nav>
@@ -137,12 +154,10 @@
       </div>
     </header>
 
-    <!-- keyfeatures  -->
+    <!-- keyfeatures start  -->
     <div>
       <div class="container mx-auto bg-[#1E2029] p-8 md:p-24 rounded-lg">
-        <div
-          class="grid grid-cols-2 lg:grid-cols-3  gap-10 md:gap-16 lg:gap-24"
-        >
+        <div class="grid grid-cols-2 lg:grid-cols-3 gap-10 md:gap-16 lg:gap-24">
           <!-- keyfeature one  -->
           <div>
             <div
@@ -239,6 +254,7 @@
         </div>
       </div>
     </div>
+    <!-- keyfeatures end  -->
 
     <script type="text/javascript" src="./script/global.js" />
   </body>
