@@ -10,26 +10,112 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
+    <!-- start navbar  -->
+    <nav class="bg-[#12141D] text-white sticky top-0 z-50">
+      <div class="relative container mx-auto">
+        <!-- navbar for large device  -->
+        <div class="px-4 flex items-center justify-between py-4">
+          <div class="flex items-center gap-4">
+            <div class="text-2xl font-bold">Nettracking</div>
+            <!-- dark light toggle  -->
+            <div>
+              <label for="toggle" class="flex items-center cursor-pointer">
+                <div class="relative">
+                  <input type="checkbox" id="toggle" class="sr-only" />
+                  <div class="block bg-gray-700 w-14 h-8 rounded-full"></div>
+                  <div
+                    class="dot absolute left-1 top-1 bg-white w-6 h-6 rounded-full transition"
+                  ></div>
+                </div>
+              </label>
+            </div>
+          </div>
+          <div class="hidden lg:flex space-x-8">
+            <a href="#" class="hover:text-gray-400">Features</a>
+            <a href="#" class="hover:text-gray-400">Pricing</a>
+            <a href="#" class="hover:text-gray-400">How it Works</a>
+            <a href="#" class="hover:text-gray-400">Knowledge Base</a>
+            <a href="#" class="hover:text-gray-400">FAQ</a>
+          </div>
+          <div class="hidden lg:flex space-x-5">
+            <button
+              class="font-semibold px-5 py-4 rounded-lg text-white bg-[#1D1F29]"
+            >
+              Sign in
+            </button>
+            <button
+              class="font-semibold px-5 py-4 rounded-lg text-black bg-white"
+            >
+              Sign in
+            </button>
+          </div>
+          <div class="lg:hidden flex items-center">
+            <button id="menu-button" class="outline-none mobile-menu-button">
+              <svg
+                class="w-6 h-6 text-white"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path d="M4 6h16M4 12h16m-7 6h7"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- nav for mobile device  -->
+        <div
+          id="mobile-menu"
+          class="lg:hidden menu-hidden absolute w-full bg-[#12141D] shadow-md shadow-gray-800 p-3 md:p-5"
+        >
+          <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-700"
+            >Features</a
+          >
+          <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-700"
+            >Pricing</a
+          >
+          <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-700"
+            >How it Works</a
+          >
+          <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-700"
+            >Knowledge Base</a
+          >
+          <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-700">FAQ</a>
+          <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-700"
+            >Sign In</a
+          >
+          <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-700"
+            >Sign Up</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- end navbar  -->
+
     <!-- header section  -->
     <header class="bg-[#12141D]">
-      <div class="container mx-auto text-center py-20">
+      <div class="container mx-auto text-center py-20 px-4 md:px-0">
         <!-- start hero area  -->
-        <div class="space-y-5">
-          <h2 class="text-5xl font-semibold text-white">
+        <div class="space-y-5 md:max-w-[600px] mx-auto">
+          <h2 class="text-3xl md:text-[42px] font-semibold text-white">
             Content marketing solution & idea of your business
           </h2>
           <p class="text-xl text-gray-500">
             Nettracking is a content marketing solution that tracks the
             effectiveness of your blog,
           </p>
-          <div class="space-x-5">
+          <div class="space-x-2 md:space-x-5">
             <button
-              class="bg-[#FF664F] text-white px-8 py-4 text-lg rounded-lg"
+              class="bg-[#FF664F] hover:bg-[#b44636] transition-all duration-300 text-white px-5 md:px-8 py-3 md:py-4 md:text-lg rounded-lg"
             >
               Explore Platform
             </button>
             <button
-              class="bg-[#22222A] text-white px-8 py-4 text-lg rounded-lg"
+              class="bg-[#22222A] hover:bg-[#4F5054] transition-all duration-300 text-white px-5  md:px-8 py-3 md:py-4 md:text-lg rounded-lg"
             >
               Learn More
             </button>
@@ -39,8 +125,8 @@
 
         <!-- start key features area  -->
         <div class="space-y-5 mt-28">
-          <h2 class="text-5xl font-semibold text-white">Key features</h2>
-          <p class="text-xl text-gray-500">
+          <h2 class="text-3xl md:text-[42px] font-semibold text-white">Key features</h2>
+          <p class="text-[18px] text-gray-500">
             NetTracking™ has quickly become the go-to content marketing solution
             for over 600 clients around the world
           </p>
@@ -48,5 +134,7 @@
         <!-- start key features area  -->
       </div>
     </header>
+
+    <script type="text/javascript" src="./script/global.js" />
   </body>
 </html>
