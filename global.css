@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
+
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   font-family: "Inter", sans-serif;
 }
@@ -14,43 +19,6 @@
 
 .nav-link.active {
   color: white;
-}
-
-.swiper {
-  position: relative !important;
-}
-
-.swiper-button-next svg,
-.swiper-button-prev svg {
-  width: 20px !important;
-  height: 20px !important;
-  object-fit: contain;
-  transform-origin: center;
-}
-
-.swiper-button-next,
-.swiper-button-prev {
-  position: absolute;
-  bottom: 0 !important;
-  width: 20px !important;
-  height: 20px !important;
-  margin-top: 500px !important;
-  z-index: 10 !important;
-  cursor: pointer !important;
-  display: flex !important;
-  align-items: end !important;
-  justify-content: end !important;
-  color: greenyellow !important;
-}
-
-.swiper-horizontal > .swiper-pagination-bullets,
-.swiper-pagination-bullets.swiper-pagination-horizontal,
-.swiper-pagination-custom,
-.swiper-pagination-fraction {
-  bottom: var(--swiper-pagination-bottom, 8px);
-  top: var(--swiper-pagination-top, auto);
-  left: 0;
-  width: 60px;
 }
 
 
