@@ -34,3 +34,4 @@ toggle.addEventListener("change", () => {
     block.classList.add("bg-gray-600");
   }
 });
+

@@ -4,13 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nettracking</title>
-    <link rel="stylesheet" href="global.css" />
+    
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <!-- tailwind cdn  -->
     <script src="https://cdn.tailwindcss.com"></script>
-
+    
     <!-- fontawsome cdn  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="global.css" />
   </head>
   <body class="bg-[#12141D]">
     <!-- start navbar  -->
@@ -343,6 +348,53 @@
      </div>
     <!-- end what we do  -->
 
+    <!-- start how it word  -->
+     <div class="container mx-auto py-20">
+      <h2 class="text-3xl md:text-[42px] font-semibold text-white text-center px-5 md:px-0">How it works</h2>
+
+      <div class="bg-[#1E2029] px-5 py-10 md:p-5 lg:p-20 rounded-lg mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        <!-- card one  -->
+        <div class="bg-[#272932] text-center p-8 rounded-lg relative">
+          <span class="bg-black text-white rounded-full w-[60px] h-[60px] flex justify-center items-center absolute -top-7 left-[45%]">01</span>
+
+          <div class="bg-[#1E2029] flex justify-center items-center p-8 rounded-lg w-full mt-10">
+            <img class="max-h-[100px]" src="./asset/card/card1.png" alt="">
+          </div>
+          <div class="mt-8 space-y-3">
+            <h4 class="text-white text-xl text-[24px] font-semibold">Add Website</h4>
+            <p class="text-[#696B76] text-[16px]">Nettracking gives you an innovative web-based tool that manages, filters and reports on your website's</p>
+          </div>
+        </div>
+
+        <!-- card two  -->
+        <div class="bg-[#272932] text-center p-8 rounded-lg relative">
+          <span class="bg-black text-white rounded-full w-[60px] h-[60px] flex justify-center items-center absolute -top-7 left-[45%]">02</span>
+
+          <div class="bg-[#1E2029] flex justify-center items-center p-8 rounded-lg w-full mt-10">
+            <img class="max-h-[100px]" src="./asset/card/card3.png" alt="">
+          </div>
+          <div class="mt-8 space-y-3">
+            <h4 class="text-white text-xl text-[24px] font-semibold">Get Tracking Code</h4>
+            <p class="text-[#696B76] text-[16px]">filters and reports on your website's search engine ranking results. In short, nettracking gives you the information</p>
+          </div>
+        </div>
+
+        <!-- card three  -->
+        <div class="bg-[#272932] text-center p-8 rounded-lg relative">
+          <span class="bg-black text-white rounded-full w-[60px] h-[60px] flex justify-center items-center absolute -top-7 left-[45%]">03</span>
+
+          <div class="bg-[#1E2029] flex justify-center items-center p-8 rounded-lg w-full mt-10">
+            <img class="max-h-[100px]" src="./asset/card/card2.png" alt="">
+          </div>
+          <div class="mt-8 space-y-3">
+            <h4 class="text-white text-xl text-[24px] font-semibold">Start Tracking</h4>
+            <p class="text-[#696B76] text-[16px]">Nettracking gives you an innovative web-based tool that manages multiple sites</p>
+          </div>
+        </div>
+      </div>
+     </div>
+    <!-- end how it word  -->
+
     <!-- start pricing section  -->
      <div class="container mx-auto py-20">
       <h2 class="text-3xl md:text-[42px] font-semibold text-white text-center">Our pricing plan</h2>
@@ -434,6 +486,138 @@
         </div>
      </div>
     <!-- end pricing section  -->
+
+    <!-- start testimonials  -->
+     <div class="container mx-auto py-20">
+      <h2 class="text-3xl md:text-[42px] font-semibold text-white text-center">Testimonials</h2>
+      <p class="text-[18px] text-gray-500 text-center mt-3 px-10 md:px-0">
+        Nettracking is a B2B marketing software for telecommunications industry.
+      </p>
+
+      <!-- <div class="mt-10">
+        <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" space-between="30" slides-per-view="2.5">
+          <swiper-slide>
+            <div class="bg-[#1E2029] p-8 rounded-lg relative my-10">
+              <div class="absolute z-10 right-10 rotate-180">
+                <div class="flex gap-1">
+                  <img class="" src="./asset/quot/quot.png" alt="">
+                  <img class="" src="./asset/quot/quot.png" alt="">
+                </div>
+              </div>
+              <img src="./asset/profile/profile1.png" alt="">
+              <p class="mt-2 italic text-[#696B76] text-[16px]">Nettracking is a B2B marketing software for telecommunications industry. This realtime cloud-based solution tracks your leads and works on many</p>
+              <div class="mt-5">
+                <h4 class="text-[#CACACA] text-[18px] font-semibold">John Smith</h4>
+                <p class="text-[#696B76] text-[12px]">Codelabs Digital</p>
+              </div>
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="bg-[#1E2029] p-8 rounded-lg relative my-10">
+              <div class="absolute z-10 right-10 rotate-180">
+                <div class="flex gap-1">
+                  <img class="" src="./asset/quot/quot.png" alt="">
+                  <img class="" src="./asset/quot/quot.png" alt="">
+                </div>
+              </div>
+              <img src="./asset/profile/profile2.png" alt="">
+              <p class="mt-2 italic text-[#696B76] text-[16px]">Customer feedback from the system is help for refining customer segmentation as well as positioning of brands. Need to see your leads as the real people</p>
+              <div class="mt-5">
+                <h4 class="text-[#CACACA] text-[18px] font-semibold">Mansur</h4>
+                <p class="text-[#696B76] text-[12px]">Codelabs Digital</p>
+              </div>
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="bg-[#1E2029] p-8 rounded-lg relative my-10">
+              <div class="absolute z-10 right-10 rotate-180">
+                <div class="flex gap-1">
+                  <img class="" src="./asset/quot/quot.png" alt="">
+                  <img class="" src="./asset/quot/quot.png" alt="">
+                </div>
+              </div>
+              <img src="./asset/profile/profile3.png" alt="">
+              <p class="mt-2 italic text-[#696B76] text-[16px]">Nettracking was founded in 1995 to assist companies with improving their internet marketing performance.
+                Our team of award-winning internet </p>
+              <div class="mt-5">
+                <h4 class="text-[#CACACA] text-[18px] font-semibold">Sajib Smith</h4>
+                <p class="text-[#696B76] text-[12px]">Codelabs Digital</p>
+              </div>
+            </div>
+          </swiper-slide> 
+        </swiper-container>
+      </div> -->
+
+      <div class="mt-10">
+        <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" space-between="30" slides-per-view="2.5" breakpoints='{
+          "640": {
+            "slidesPerView": 1,
+            "spaceBetween": 10
+          },
+          "768": {
+            "slidesPerView": 2,
+            "spaceBetween": 20
+          },
+          "1024": {
+            "slidesPerView": 2.5,
+            "spaceBetween": 30
+          }
+        }'>
+          <swiper-slide>
+            <div class="bg-[#1E2029] p-8 rounded-lg relative my-10">
+              <div class="absolute z-10 right-10 rotate-180">
+                <div class="flex gap-1">
+                  <img class="" src="./asset/quot/quot.png" alt="">
+                  <img class="" src="./asset/quot/quot.png" alt="">
+                </div>
+              </div>
+              <img src="./asset/profile/profile1.png" alt="">
+              <p class="mt-2 italic text-[#696B76] text-[16px]">Nettracking is a B2B marketing software for telecommunications industry. This realtime cloud-based solution tracks your leads and works on many</p>
+              <div class="mt-5">
+                <h4 class="text-[#CACACA] text-[18px] font-semibold">John Smith</h4>
+                <p class="text-[#696B76] text-[12px]">Codelabs Digital</p>
+              </div>
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="bg-[#1E2029] p-8 rounded-lg relative my-10">
+              <div class="absolute z-10 right-10 rotate-180">
+                <div class="flex gap-1">
+                  <img class="" src="./asset/quot/quot.png" alt="">
+                  <img class="" src="./asset/quot/quot.png" alt="">
+                </div>
+              </div>
+              <img src="./asset/profile/profile2.png" alt="">
+              <p class="mt-2 italic text-[#696B76] text-[16px]">Customer feedback from the system is help for refining customer segmentation as well as positioning of brands. Need to see your leads as the real people</p>
+              <div class="mt-5">
+                <h4 class="text-[#CACACA] text-[18px] font-semibold">Mansur</h4>
+                <p class="text-[#696B76] text-[12px]">Codelabs Digital</p>
+              </div>
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="bg-[#1E2029] p-8 rounded-lg relative my-10">
+              <div class="absolute z-10 right-10 rotate-180">
+                <div class="flex gap-1">
+                  <img class="" src="./asset/quot/quot.png" alt="">
+                  <img class="" src="./asset/quot/quot.png" alt="">
+                </div>
+              </div>
+              <img src="./asset/profile/profile3.png" alt="">
+              <p class="mt-2 italic text-[#696B76] text-[16px]">Nettracking was founded in 1995 to assist companies with improving their internet marketing performance.
+                Our team of award-winning internet </p>
+              <div class="mt-5">
+                <h4 class="text-[#CACACA] text-[18px] font-semibold">Sajib Smith</h4>
+                <p class="text-[#696B76] text-[12px]">Codelabs Digital</p>
+              </div>
+            </div>
+          </swiper-slide> 
+        </swiper-container>
+      </div>
+   
+      
+    </div>
+    <!-- end testimonials  -->
 
     <!-- start faq section  -->
      <div class="container mx-auto py-14">
@@ -553,7 +737,36 @@
      </div>
     <!-- end footer section  -->
 
+     <!-- swipper cdn  -->
+
+    
+
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
     <script src="./global.js"></script>
+
+    <script>
+      var swiper = new Swiper('.mySwiper', {
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 10
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 20
+          },
+          1024: {
+            slidesPerView: 2.5,
+            spaceBetween: 30
+          }
+        }
+      });
+    </script>
+    
   </body>
 </html>
 
