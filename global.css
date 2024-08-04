@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
-
 html {
   scroll-behavior: smooth;
 }
@@ -21,4 +20,21 @@ html {
   color: white;
 }
 
-
+/* style for testimonial */
+.testimonial-slider {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+.testimonial-slide {
+  flex: 0 0 100%;
+}
+@media (min-width: 768px) {
+  .testimonial-slide {
+    flex: 0 0 50%;
+  }
+}
+@media (min-width: 1024px) {
+  .testimonial-slide {
+    flex: 0 0 calc(100% / 2.5);
+  }
+}
